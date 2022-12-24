@@ -85,7 +85,7 @@ public class ReusableFunction {
 	System.setProperty("webdriver.chrome.driver", "./chromedriver.exe");
     driver=new ChromeDriver();
 	driver.get(Fetchprop("URL"));
-
+     System.out.println("URL is coming");
 	}
 	
 	public void fillText(String locatorBy, String LocatorValue, String text){
